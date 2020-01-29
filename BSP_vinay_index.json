@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "VINAY STM32",
+      "name": "VINAYSTM32",
       "websiteURL": "http://www.st.com/en/microcontrollers.html",
       "maintainer": "STMicroelectronics",
       "email": "vinays2117@gmail.com",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "STM32 Cores",
+          "name": "VINAYSTM32Cores",
           "architecture": "stm32",
           "version": "0.1.0",
           "category": "Contributed",
