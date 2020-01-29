@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "VINAY STM32",
+      "websiteURL": "http://www.st.com/en/microcontrollers.html",
+      "maintainer": "STMicroelectronics",
+      "email": "vinays2117@gmail.com",
+      "help": {
+        "online": "http://www.stm32duino.com/"
+      },
+      "platforms": [
+        {
+          "name": "STM32 Cores",
+          "architecture": "stm32",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/packages/STM32-2017.5.12.tar.bz2",
+          "archiveFileName": "STM32-2017.5.12.tar.bz2",
+          "checksum": "SHA-256:10b403b6b437c183d9a0a74a08ebe425766f6c3425474b1f800f6eca337075a6",
+          "size": "19788680",
+          "boards": [
+            {"name": "Nucleo F429ZI"},
+            {"name": "Nucleo F091RC"},
+            {"name": "Nucleo F303RE"},
+            {"name": "Nucleo L053R8"},
+            {"name": "Nucleo L476RG"},
+            {"name": "STM32F407G-DISC1"},
+            {"name": "STM32F746G-DISCOVERY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STM32",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q1-update"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        }
