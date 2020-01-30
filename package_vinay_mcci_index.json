@@ -334,14 +334,14 @@
           ]
         },
 	{
-          "name": "MCCI Catena SAMD Boards",
+          "name": "MCCI Catena SAMD Boards-Vinay",
           "architecture": "samd",
-          "version": "2.1.0",
+          "version": "2.2.0",
           "category": "Contributed",
           "help": {
-            "online": "https://portal.mcci.com"
+            "online": "https://github.com/vinay-002/vinaynamala/"
           },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.1.0.tar.gz",
+          "url": "https://github.com/vinay-002/vinaynamala/raw/master/ArduinoCore-samd-2.1.0.tar.gz",
           "archiveFileName": "Arduino_Core_SAMD-2.1.0.tar.gz",
           "checksum": "SHA-256:86306a068853ed8e3d5c53aab771c6c338eaaaae10fc5930411984da1bad03d8",
           "size": "6564792",
