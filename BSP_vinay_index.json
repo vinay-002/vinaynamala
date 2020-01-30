@@ -1,47 +1,59 @@
 {
   "packages": [
     {
-      "name": "VINAYSTM32",
-      "websiteURL": "http://www.st.com/en/microcontrollers.html",
-      "maintainer": "STMicroelectronics",
-      "email": "vinays2117@gmail.com",
+      "name": "BSP SAMD mcci",
+      "maintainer": "ICCM Corp",
+      "websiteURL": "https://github.com/mcci-catena/arduino-boards",
+      "email": "vinayn@mcci.com",
       "help": {
-        "online": "http://www.stm32duino.com/"
+        "online": "https://portal.mcci.com"
       },
       "platforms": [
-        {
-          "name": "VINAYSTM32Cores",
-          "architecture": "stm32",
-          "version": "0.1.0",
+	      {
+          "name": "BSP ICCM Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "2.1.0",
           "category": "Contributed",
-          "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/packages/STM32-2017.5.12.tar.bz2",
-          "archiveFileName": "STM32-2017.5.12.tar.bz2",
-          "checksum": "SHA-256:10b403b6b437c183d9a0a74a08ebe425766f6c3425474b1f800f6eca337075a6",
-          "size": "19788680",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.1.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-2.1.0.tar.gz",
+          "checksum": "SHA-256:86306a068853ed8e3d5c53aab771c6c338eaaaae10fc5930411984da1bad03d8",
+          "size": "6564792",
           "boards": [
-            {"name": "Nucleo F429ZI"},
-            {"name": "Nucleo F091RC"},
-            {"name": "Nucleo F303RE"},
-            {"name": "Nucleo L053R8"},
-            {"name": "Nucleo L476RG"},
-            {"name": "STM32F407G-DISC1"},
-            {"name": "STM32F746G-DISCOVERY"}
+            {"name": "a mcci Catena 4410"},
+	          {"name": "a mcci Catena 4420"},  
+            {"name": "a mcci Catena 4450"},
+            {"name": "a mcci Catena 4460"},
+	          {"name": "a mcci Catena 4470"},
+            {"name": "VINAY mcci"}
           ],
           "toolsDependencies": [
             {
-              "packager": "STM32",
-              "name": "arm-none-eabi-gcc",
-              "version": "6-2017-q1-update"
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
             },
             {
-              "packager": "STM32",
-              "name": "STM32Tools",
-              "version": "0.1.0"
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
             },
             {
               "packager": "arduino",
               "name": "CMSIS",
               "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
             }
           ]
         }
