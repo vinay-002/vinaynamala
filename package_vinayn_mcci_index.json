@@ -294,7 +294,7 @@
           "help": {
             "online": "https://portal.mcci.com"
           },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.0.0.tar.gz",
+          "url": "https://github.com/vinay-002/packages/raw/master/ArduinoCore-samd-2.1.0.tar.gz",
           "archiveFileName": "Arduino_Core_SAMD-2.0.0.tar.gz",
           "checksum": "SHA-256:8c0ca0b4ccb1a6f0d69a0af994023baff2d530204af51c04cd26b9b5b34146d2",
           "size": "6564331",
